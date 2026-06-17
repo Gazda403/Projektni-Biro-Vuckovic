@@ -62,30 +62,14 @@ export default function ContactSection() {
         {/* Content Split */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-start">
 
-          {/* Left: Big CTA Text */}
-          <m.div variants={itemVariants} custom={0.25} className="flex flex-col gap-6">
+          {/* Left: Big CTA Text & Address */}
+          <m.div variants={itemVariants} custom={0.25} className="flex flex-col gap-10">
             <p
               className="text-2xl md:text-3xl lg:text-4xl font-light leading-snug"
               style={{ fontFamily: "var(--font-cormorant), serif" }}
             >
               Razgovarajmo o vašem sledećem projektu — od ideje do realizacije.
             </p>
-            <a
-              href="mailto:oxo.arhitekti@live.com"
-              className="group mt-4 inline-flex items-center gap-3 text-[#0B0B0B]"
-            >
-              <span
-                className="text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight border-b-2 border-[#0B0B0B] pb-1 group-hover:border-[#7a8c3f] group-hover:text-[#7a8c3f] transition-all duration-400"
-                style={{ fontFamily: "var(--font-inter), sans-serif" }}
-              >
-                oxo.arhitekti@live.com
-              </span>
-              <span className="text-2xl transition-transform duration-300 group-hover:translate-x-2">→</span>
-            </a>
-          </m.div>
-
-          {/* Right: Contact Details */}
-          <m.div variants={itemVariants} custom={0.4} className="flex flex-col gap-10">
             <div className="flex flex-col gap-4">
               <div>
                 <span className="text-xs font-semibold tracking-[0.3em] uppercase text-[#0B0B0B]/50 block mb-2">
@@ -98,7 +82,7 @@ export default function ContactSection() {
               </div>
               <div className="w-full h-48 md:h-64 rounded-xl overflow-hidden shadow-sm border border-[#0B0B0B]/10">
                 <iframe 
-                  src="https://maps.google.com/maps?q=Starine%20Novaka%2022,%20Beograd,%20Srbija&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=OXO%20Arhitekti,%20Beograd&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
@@ -107,6 +91,27 @@ export default function ContactSection() {
                   referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>
+            </div>
+          </m.div>
+
+          {/* Right: Contact Details */}
+          <m.div variants={itemVariants} custom={0.4} className="flex flex-col gap-10">
+            <div className="flex flex-col gap-2">
+              <span className="text-xs font-semibold tracking-[0.3em] uppercase text-[#0B0B0B]/50">
+                Email
+              </span>
+              <a
+                href="mailto:oxo.arhitekti@live.com"
+                className="group inline-flex items-center gap-3 text-[#0B0B0B]"
+              >
+                <span
+                  className="text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight border-b-2 border-[#0B0B0B] pb-1 group-hover:border-[#7a8c3f] group-hover:text-[#7a8c3f] transition-all duration-400"
+                  style={{ fontFamily: "var(--font-inter), sans-serif" }}
+                >
+                  oxo.arhitekti@live.com
+                </span>
+                <span className="text-2xl transition-transform duration-300 group-hover:translate-x-2">→</span>
+              </a>
             </div>
 
             <div className="flex flex-col gap-2">
