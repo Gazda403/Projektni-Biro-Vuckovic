@@ -76,13 +76,14 @@ export default function ContactSection() {
                   Adresa
                 </span>
                 <p className="text-lg font-medium text-[#0B0B0B] leading-relaxed">
+                  <span className="font-semibold block text-[#0B0B0B]">PROJEKTNI BIRO VUČKOVIĆ</span>
                   Ive Lole Ribara 53<br />
                   21208 Sremska Kamenica, Novi Sad
                 </p>
               </div>
               <div className="w-full h-48 md:h-64 rounded-xl overflow-hidden shadow-sm border border-[#0B0B0B]/10">
                 <iframe 
-                  src="https://maps.google.com/maps?q=Ive+Lole+Ribara+53%2C+21208+Sremska+Kamenica%2C+Srbija&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=PROJEKTNI+BIRO+VU%C4%8CKOVI%C4%86%2C+Ive+Lole+Ribara+53%2C+Sremska+Kamenica&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 

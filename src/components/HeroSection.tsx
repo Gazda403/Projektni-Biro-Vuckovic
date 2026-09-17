@@ -130,24 +130,24 @@ export default function HeroSection() {
         animate={{ scale: 1,    opacity: 1 }}
         transition={{ duration: 1.8, ease: [0.22, 1, 0.36, 1] }}
       >
-        {/* ── Mobile image ── */}
+        {/* ── Mobile / Tablet image (for non-PC/laptop viewers) ── */}
         <Image
           src="/images/vuckovic-hero-mobile.jpg"
           alt="Arhitektonski projektni biro Vučković — moderna rezidencijalna zgrada"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center block sm:hidden"
+          className="object-cover object-center block lg:hidden"
           quality={92}
         />
-        {/* ── Desktop image ── */}
+        {/* ── Desktop / Laptop image ── */}
         <Image
           src="/images/vuckovic-hero-main.jpg"
           alt="Arhitektonski projektni biro Vučković — moderna rezidencijalna zgrada"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center hidden sm:block"
+          className="object-cover object-center hidden lg:block"
           quality={92}
         />
         {/* Subtle vignette — darkens edges without killing the sky */}
@@ -156,14 +156,15 @@ export default function HeroSection() {
       </m.div>
 
       {/* ═══════════════════════════════════════════════════════════════════════
-          Z-10 ── "ARHITEKTI" Brand Typography on the Facade (desktop)
-                  + "OXO" overlay (mobile only)
+          Z-10 ── Brand Typography:
+                  Desktop / Laptop: "ARHITEKTI" on facade
+                  Mobile / Tablet: "VUČKOVIĆ" text overlay above building
       ════════════════════════════════════════════════════════════════════════ */}
 
-      {/* ARHITEKTI — desktop only */}
+      {/* ARHITEKTI — PC / Laptop only */}
       <m.div
         aria-hidden="true"
-        className="absolute inset-x-0 z-10 hidden sm:flex items-center justify-center pointer-events-none select-none transform-gpu"
+        className="absolute inset-x-0 z-10 hidden lg:flex items-center justify-center pointer-events-none select-none transform-gpu"
         style={{ top: "37%" }}
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 0.25, y: 0 }}
@@ -183,32 +184,32 @@ export default function HeroSection() {
         </h2>
       </m.div>
 
-      {/* OXO + ARHITEKTI — mobile only overlay */}
+      {/* VUČKOVIĆ — Mobile / Tablet (non-PC/laptop) text overlay above building */}
       <m.div
         aria-hidden="true"
-        className="absolute inset-x-0 z-10 flex sm:hidden flex-col items-center justify-center pointer-events-none select-none transform-gpu"
-        style={{ top: "28%" }}
+        className="absolute inset-x-0 z-10 flex lg:hidden flex-col items-center justify-center pointer-events-none select-none transform-gpu px-4"
+        style={{ top: "20%" }}
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.6, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
       >
         <h2
-          className="text-white leading-none select-none whitespace-nowrap uppercase"
+          className="text-white leading-none select-none whitespace-nowrap uppercase text-center"
           style={{
             fontFamily: "var(--font-orbitron), sans-serif",
             fontWeight: 800,
-            fontSize: "clamp(6.5rem, 36vw, 12rem)",
-            letterSpacing: "-0.04em",
-            textShadow: "0 0 60px rgba(0,0,0,0.25)",
+            fontSize: "clamp(2.5rem, 11.5vw, 5.5rem)",
+            letterSpacing: "0.08em",
+            textShadow: "0 4px 30px rgba(0,0,0,0.5)",
           }}
         >
-          VUČK.
+          VUČKOVIĆ
         </h2>
         <p
-          className="text-white/50 uppercase tracking-[0.42em] font-light mt-4 whitespace-nowrap"
+          className="text-white/60 uppercase tracking-[0.38em] font-light mt-2.5 whitespace-nowrap text-center"
           style={{
             fontFamily: "var(--font-orbitron), sans-serif",
-            fontSize: "clamp(1rem, 5vw, 1.5rem)",
+            fontSize: "clamp(0.75rem, 3.2vw, 1.1rem)",
           }}
         >
           ARHITEKTI
