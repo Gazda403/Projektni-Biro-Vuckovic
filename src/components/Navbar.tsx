@@ -17,7 +17,7 @@ const NAV_LINKS: NavLink[] = [
   { label: "Kontakt",  href: "#kontakt"  },
 ];
 
-const PHONE = "+381 (0)21 6614440";
+const PHONE = "064/201 4809";
 
 // ─── OXO Logo Mark ────────────────────────────────────────────────────────────
 function OxoLogo() {
@@ -95,7 +95,7 @@ export default function Navbar() {
         {/* Right — Phone Badge */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href={`tel:${PHONE.replace(/\s/g, "")}`}
+            href="tel:+381642014809"
             aria-label={`Pozovite nas: ${PHONE}`}
             className="group flex items-center gap-2.5 rounded-full border border-[#f5f4f0]/20 px-4 py-2 hover:border-[#f5f4f0]/60 hover:bg-[#f5f4f0]/5 transition-all duration-300"
           >

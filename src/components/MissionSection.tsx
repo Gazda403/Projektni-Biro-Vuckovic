@@ -45,7 +45,7 @@ export default function MissionSection() {
       id="nasa-misija"
       className="relative w-full min-h-[90vh] md:min-h-screen overflow-hidden bg-[#0B0B0B] bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/images/nasa-misija-bg.png')",
+        backgroundImage: "url('/images/nasa-misija-bg.jpg')",
         backgroundAttachment: "fixed",
       }}
       initial="hidden"
@@ -109,7 +109,7 @@ export default function MissionSection() {
                 style={{
                   fontFamily: "var(--font-inter), sans-serif",
                   fontSize: "clamp(4.5rem, 13vw, 12rem)",
-                  backgroundImage: "url('/images/nasa-misija-bg.png')",
+                  backgroundImage: "url('/images/nasa-misija-bg.jpg')",
                   backgroundAttachment: "fixed",
                   WebkitBackgroundClip: "text",
                   backgroundClip: "text",

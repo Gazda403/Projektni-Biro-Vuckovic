@@ -99,11 +99,11 @@ export default function AboutSection() {
           </m.div>
 
           <m.p variants={flyInUp} className="text-white/60 text-base md:text-lg leading-relaxed mb-6 font-light">
-            Arhitektonski projektni biro Vučković je studio sa sedištem u Novom Sadu, na čelu sa arhitektom i sudskim veštakom Duškom Vučkovićem. Biro je specijalizovan za sveobuhvatno arhitektonsko projektovanje, inženjerski nadzor, pravne procedure i stručna sudska veštačenja za stambene, poslovne i javne objekte.
+            Projektni biro Vučković osnovan je 2005. godine u Novom Sadu od strane diplomiranog inženjera arhitekture Duška Vučkovića (rod. 1970.), kao biro čije su osnovne usluge projektni konsalting, veštačenje i arhitektonsko projektovanje. U dosadašnjem radu realizovao je brojne projekte za objekte različitih namena — od stambenih i stambeno-poslovnih objekata, pa sve do industrijskih objekata, trgovinskih centara, sportskih i ugostiteljskih objekata.
           </m.p>
 
           <m.p variants={flyInUp} className="text-white/60 text-base md:text-lg leading-relaxed mb-10 font-light">
-            Svakom projektu pristupamo kao jedinstvenom izazovu koji zahteva balans između estetike, energetske efikasnosti i tehničke tačnosti. Kao sertifikovani sudski veštak u oblasti visokogradnje, Duško Vučković pruža i sudske i vansudske procene vrednosti nekretnina i građevinskih radova.
+            Opredeljenost ovog biroa od samog početka jeste stručnost i efikasnost u poslu uz poštovanje profesionalne etike, pravnih standarda i stalno usavršavanje u okviru arhitektonske i projektantske prakse. Sve projekte realizujemo u saradnji sa licenciranim inženjerima elektroinstalacija, konstrukcije, termomašinskih instalacija i klimatizacije.
           </m.p>
 
           <m.div variants={flyInUp}>

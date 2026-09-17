@@ -6,23 +6,23 @@ import Image from "next/image";
 const projects = [
   {
     id: "01",
-    title: "GROČANSKA 25",
-    description: "Kompletna rekonstrukcija i luksuzan dizajn eksterijera rezidencijalnog objekta, Beograd.",
-    image: "/images/project1-new.png",
+    title: "STAMBENO-POSLOVNA ZGRADA",
+    description: "Stambeno-poslovna zgrada u Beogradu — kompletna projektna dokumentacija i nadzor.",
+    image: "/images/projekat-beograd.jpg",
     delay: 0.1
   },
   {
     id: "02",
-    title: "DIVČIGORA 2",
-    description: "Moderan apartmanski kompleks prilagođen planinskom okruženju, sa prostranim terasama.",
-    image: "/images/project2-new.png",
+    title: "KUĆA PORODICE VUKOJEVIĆ",
+    description: "Kuća porodice Vukojević — idejni i glavni projekat sa unutrašnjim uređenjem.",
+    image: "/images/projekat-kuca-vukojevic.jpg",
     delay: 0.25
   },
   {
     id: "03",
-    title: "URBAN VILLA",
-    description: "Projektovanje i tehničko savetovanje za stambeni kompleks visoke energetske efikasnosti.",
-    image: "/images/project3-new.png",
+    title: "POZORIŠTE & MTS POSLOVNA ZGRADA",
+    description: "Dogradnja pozorišta i poslovna zgrada MTS-a — kompleksno inženjersko rešenje.",
+    image: "/images/projekat-pozoriste-mts.jpg",
     delay: 0.4
   }
 ];

@@ -76,13 +76,13 @@ export default function ContactSection() {
                   Adresa
                 </span>
                 <p className="text-lg font-medium text-[#0B0B0B] leading-relaxed">
-                  Bulevar Oslobođenja 30<br />
-                  21000 Novi Sad, Srbija
+                  Ive Lole Ribara 53<br />
+                  21208 Sremska Kamenica, Novi Sad
                 </p>
               </div>
               <div className="w-full h-48 md:h-64 rounded-xl overflow-hidden shadow-sm border border-[#0B0B0B]/10">
                 <iframe 
-                  src="https://maps.google.com/maps?q=Bulevar+Oslobo%C4%91enja+30%2C+Novi+Sad%2C+Srbija&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=Ive+Lole+Ribara+53%2C+21208+Sremska+Kamenica%2C+Srbija&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
@@ -101,14 +101,14 @@ export default function ContactSection() {
                 Email
               </span>
               <a
-                href="mailto:vuckovic.arhitekti@gmail.com"
+                href="mailto:duskovuckovic@gmail.com"
                 className="group inline-flex items-center gap-3 text-[#0B0B0B]"
               >
                 <span
                   className="text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight border-b-2 border-[#0B0B0B] pb-1 group-hover:border-[#7a8c3f] group-hover:text-[#7a8c3f] transition-all duration-400"
                   style={{ fontFamily: "var(--font-inter), sans-serif" }}
                 >
-                  vuckovic.arhitekti@gmail.com
+                  duskovuckovic@gmail.com
                 </span>
                 <span className="text-2xl transition-transform duration-300 group-hover:translate-x-2">→</span>
               </a>
@@ -119,10 +119,10 @@ export default function ContactSection() {
                 Telefon
               </span>
               <a
-                href="tel:+381216614440"
+                href="tel:+381642014809"
                 className="text-lg font-medium text-[#0B0B0B] hover:text-[#7a8c3f] transition-colors duration-300"
               >
-                +381 (0)21 6614440
+                064/201 4809
               </a>
             </div>
 

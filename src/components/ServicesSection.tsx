@@ -6,18 +6,23 @@ import { m, useScroll, useTransform, Variants } from "framer-motion";
 const services = [
   {
     id: "02.1",
-    title: "Arhitektonsko Projektovanje",
-    description: "Projektovanje stambenih kuća, stambenih i poslovnih zgrada, industrijskih hala i javnih objekata. Unutrašnji dizajn, projekti reklamnih obeležja i projektovanje protivpožarnih sistema.",
+    title: "Projektovanje",
+    description: "Idejni i glavni projekti (instalacije, PP zaštita, energetska efikasnost), projekti za ozakonjenje, enterijeri i tehnička kontrola dokumentacije.",
   },
   {
     id: "02.2",
-    title: "Sudsko Veštačenje i Procene",
-    description: "Sertifikovano sudsko i vansudsko veštačenje u oblasti visokogradnje. Procena tržišne i građevinske vrednosti nekretnina. Studije opravdanosti ulaganja.",
+    title: "Sudsko Veštačenje",
+    description: "Sudsko veštačenje građevinske struke, oblast arhitektura, uža specijalnost visokogradnja. Izrada stručnih nalaza i mišljenja veštaka.",
   },
   {
     id: "02.3",
-    title: "Dozvole, Nadzor i Efikasnost",
-    description: "Izrada energetskih elaborata i energetskih pašoša. Legalizacija i ozakonjenje objekata. Pomoć pri ishodećivanju dozvola. Projektantski i izvođački nadzor.",
+    title: "Izvođenje i Nadzor",
+    description: "Izvođenje stambenih i poslovnih objekata po građevinskoj dozvoli, izvođenje enterijera, stručni nadzor i tehnički pregled za upotrebnu dozvolu.",
+  },
+  {
+    id: "02.4",
+    title: "Konsalting",
+    description: "Pribavljanje dozvola za gradnju, savetovanje, procena tržišne i građevinske vrednosti nekretnina i izrada studija opravdanosti ulaganja.",
   }
 ];
 
@@ -109,7 +114,7 @@ export default function ServicesSection() {
 
         {/* Services Grid */}
         <m.div 
-          className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8 lg:gap-16 pt-4"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 lg:gap-8 pt-4"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
