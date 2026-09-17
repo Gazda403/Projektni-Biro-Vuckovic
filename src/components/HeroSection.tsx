@@ -111,7 +111,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      aria-label="OXO Arhitekti — Naslovna sekcija"
+      aria-label="Arhitektonski projektni biro Vučković — Naslovna sekcija"
       className="relative w-full h-screen min-h-[640px] max-h-[1200px] overflow-hidden bg-[#0a0a0a]"
     >
       {/* ── NOISE TEXTURE OVERLAY ──────────────────────────────────────────── */}
@@ -130,20 +130,20 @@ export default function HeroSection() {
         animate={{ scale: 1,    opacity: 1 }}
         transition={{ duration: 1.8, ease: [0.22, 1, 0.36, 1] }}
       >
-        {/* ── Mobile image (clean building, no baked-in OXO) ── */}
+        {/* ── Mobile image ── */}
         <Image
-          src="/images/oxo-hero-mobile.png"
-          alt="OXO Arhitekti — moderna rezidencijalna zgrada"
+          src="/images/vuckovic-hero-mobile.jpg"
+          alt="Arhitektonski projektni biro Vučković — moderna rezidencijalna zgrada"
           fill
           priority
           sizes="100vw"
           className="object-cover object-center block sm:hidden"
           quality={92}
         />
-        {/* ── Desktop image (OXO baked in) ── */}
+        {/* ── Desktop image ── */}
         <Image
-          src="/images/oxo-hero-main.png"
-          alt="OXO Arhitekti — moderna rezidencijalna zgrada"
+          src="/images/vuckovic-hero-main.jpg"
+          alt="Arhitektonski projektni biro Vučković — moderna rezidencijalna zgrada"
           fill
           priority
           sizes="100vw"
@@ -202,7 +202,7 @@ export default function HeroSection() {
             textShadow: "0 0 60px rgba(0,0,0,0.25)",
           }}
         >
-          OXO
+          VUČK.
         </h2>
         <p
           className="text-white/50 uppercase tracking-[0.42em] font-light mt-4 whitespace-nowrap"
@@ -261,11 +261,11 @@ export default function HeroSection() {
           animate="visible"
         >
           {/* Tagline — split-line masking reveal */}
-          <div aria-label="GDE SE INŽENJERSTVO SUSREĆE SA SAVREMENIM DIZAJNOM">
+          <div aria-label="PROJEKTOVANJE, NADZOR I VEŠTAČENJE">
             {[
-              "GDE SE INŽENJERSTVO",
-              "SUSREĆE SA SAVREMENIM",
-              "DIZAJNOM",
+              "PROJEKTOVANJE I NADZOR",
+              "SUDSKO VEŠTAČENJE",
+              "NOVI SAD, SRBIJA",
             ].map((line) => (
               <div key={line} className="clip-text overflow-hidden">
                 <m.span
@@ -301,9 +301,9 @@ export default function HeroSection() {
             className="text-[#f5f4f0]/40 font-mono uppercase leading-relaxed"
             style={{ fontSize: "clamp(0.55rem, 0.7vw, 0.72rem)", letterSpacing: "0.18em" }}
           >
-            Osnovani 2009.
+            Du\u0161ko Vu\u010dkovi\u0107
             <br />
-            Beograd (Palilula)
+            Novi Sad, Srbija
           </p>
         </m.div>
 
@@ -320,7 +320,7 @@ export default function HeroSection() {
             className="font-mono text-[#f5f4f0]/30 uppercase"
             style={{ fontSize: "0.55rem", letterSpacing: "0.25em" }}
           >
-            BEO
+            NS
           </span>
         </m.div>
       </div>

@@ -68,7 +68,7 @@ export default function ContactSection() {
               className="text-2xl md:text-3xl lg:text-4xl font-light leading-snug"
               style={{ fontFamily: "var(--font-cormorant), serif" }}
             >
-              Razgovarajmo o vašem sledećem projektu — od ideje do realizacije.
+              Razgovarajmo o Vašem projektu — od idejnog rešenja do ključa u ruke.
             </p>
             <div className="flex flex-col gap-4">
               <div>
@@ -76,13 +76,13 @@ export default function ContactSection() {
                   Adresa
                 </span>
                 <p className="text-lg font-medium text-[#0B0B0B] leading-relaxed">
-                  Starine Novaka 22<br />
-                  11000 Beograd, Palilula
+                  Bulevar Oslobođenja 30<br />
+                  21000 Novi Sad, Srbija
                 </p>
               </div>
               <div className="w-full h-48 md:h-64 rounded-xl overflow-hidden shadow-sm border border-[#0B0B0B]/10">
                 <iframe 
-                  src="https://maps.google.com/maps?q=OXO%20Arhitekti,%20Beograd&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=Bulevar+Oslobo%C4%91enja+30%2C+Novi+Sad%2C+Srbija&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
@@ -101,14 +101,14 @@ export default function ContactSection() {
                 Email
               </span>
               <a
-                href="mailto:oxo.arhitekti@live.com"
+                href="mailto:vuckovic.arhitekti@gmail.com"
                 className="group inline-flex items-center gap-3 text-[#0B0B0B]"
               >
                 <span
                   className="text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight border-b-2 border-[#0B0B0B] pb-1 group-hover:border-[#7a8c3f] group-hover:text-[#7a8c3f] transition-all duration-400"
                   style={{ fontFamily: "var(--font-inter), sans-serif" }}
                 >
-                  oxo.arhitekti@live.com
+                  vuckovic.arhitekti@gmail.com
                 </span>
                 <span className="text-2xl transition-transform duration-300 group-hover:translate-x-2">→</span>
               </a>
@@ -119,10 +119,10 @@ export default function ContactSection() {
                 Telefon
               </span>
               <a
-                href="tel:+381113240390"
+                href="tel:+381216614440"
                 className="text-lg font-medium text-[#0B0B0B] hover:text-[#7a8c3f] transition-colors duration-300"
               >
-                +381 (0)11 3240390
+                +381 (0)21 6614440
               </a>
             </div>
 

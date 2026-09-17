@@ -55,7 +55,7 @@ export default function AboutSection() {
           >
             <Image 
               src="/images/about_office.png" 
-              alt="OXO Arhitekti Studio"
+              alt="Arhitektonski projektni biro Vučković — Studio"
               fill
               className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -94,16 +94,16 @@ export default function AboutSection() {
               className="font-light text-4xl md:text-5xl lg:text-6xl leading-tight mb-8"
               style={{ fontFamily: "var(--font-cormorant), serif" }}
             >
-              Kombinacija inženjerske preciznosti i <span className="italic text-white/80">umetničke vizije</span>.
+              Inženjerska preciznost i <span className="italic text-white/80">pravna stručnost</span> u jednom birou.
             </h3>
           </m.div>
 
           <m.p variants={flyInUp} className="text-white/60 text-base md:text-lg leading-relaxed mb-6 font-light">
-            Osnovani 2009. godine u srcu Palilule, OXO Arhitekti predstavljaju spoj višedecenijskog iskustva i savremenog pristupa projektovanju. Naš tim čine strastveni stručnjaci posvećeni stvaranju prostora koji inspirišu, funkcionišu besprekorno i traju generacijama.
+            Arhitektonski projektni biro Vučković je studio sa sedištem u Novom Sadu, na čelu sa arhitektom i sudskim veštakom Duškom Vučkovićem. Biro je specijalizovan za sveobuhvatno arhitektonsko projektovanje, inženjerski nadzor, pravne procedure i stručna sudska veštačenja za stambene, poslovne i javne objekte.
           </m.p>
 
           <m.p variants={flyInUp} className="text-white/60 text-base md:text-lg leading-relaxed mb-10 font-light">
-            Svakom projektu pristupamo kao jedinstvenom izazovu, balansirajući estetiku, održivost i tehničku izvodljivost. Verujemo da dobra arhitektura nije samo oblikovanje prostora, već i oblikovanje načina na koji ljudi žive, rade i komuniciraju sa svojim okruženjem.
+            Svakom projektu pristupamo kao jedinstvenom izazovu koji zahteva balans između estetike, energetske efikasnosti i tehničke tačnosti. Kao sertifikovani sudski veštak u oblasti visokogradnje, Duško Vučković pruža i sudske i vansudske procene vrednosti nekretnina i građevinskih radova.
           </m.p>
 
           <m.div variants={flyInUp}>

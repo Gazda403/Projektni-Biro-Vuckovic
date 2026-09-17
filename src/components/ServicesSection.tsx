@@ -6,18 +6,18 @@ import { m, useScroll, useTransform, Variants } from "framer-motion";
 const services = [
   {
     id: "02.1",
-    title: "Projektovanje i Dizajn",
-    description: "Arhitektonsko projektovanje, idejna rešenja, i unutrašnji dizajn prilagođen najvišim estetskim standardima.",
+    title: "Arhitektonsko Projektovanje",
+    description: "Projektovanje stambenih kuća, stambenih i poslovnih zgrada, industrijskih hala i javnih objekata. Unutrašnji dizajn, projekti reklamnih obeležja i projektovanje protivpožarnih sistema.",
   },
   {
     id: "02.2",
-    title: "Inženjerske Delatnosti",
-    description: "Detaljna tehnička dokumentacija, precizni proračuni i statika koja osigurava dugovečnost objekata.",
+    title: "Sudsko Veštačenje i Procene",
+    description: "Sertifikovano sudsko i vansudsko veštačenje u oblasti visokogradnje. Procena tržišne i građevinske vrednosti nekretnina. Studije opravdanosti ulaganja.",
   },
   {
     id: "02.3",
-    title: "Tehničko Savetovanje",
-    description: "Stručni nadzor, inženjerski konsalting i kompletno upravljanje projektima od prve skice do ključa u ruke.",
+    title: "Dozvole, Nadzor i Efikasnost",
+    description: "Izrada energetskih elaborata i energetskih pašoša. Legalizacija i ozakonjenje objekata. Pomoć pri ishodećivanju dozvola. Projektantski i izvođački nadzor.",
   }
 ];
 

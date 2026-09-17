@@ -33,10 +33,10 @@ export default function Footer() {
               className="text-3xl md:text-4xl font-black tracking-tighter uppercase text-[#f5f4f0]"
               style={{ fontFamily: "var(--font-inter), sans-serif" }}
             >
-              OXO Arhitekti
+              Vučković Arhitekti
             </span>
             <p className="text-sm text-white/40 font-light max-w-xs leading-relaxed">
-              Projektovanje, inženjerske delatnosti i tehničko savetovanje. Beograd, od 2009.
+              Projektovanje, sudsko veštačenje i nadzor. Novi Sad, Srbija.
             </p>
           </div>
 
@@ -60,10 +60,10 @@ export default function Footer() {
         {/* Bottom Row */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <p className="text-xs text-white/25 tracking-wide">
-            © {year} OXO Arhitekti d.o.o. — Sva prava zadržana.
+            © {year} Arhitektonski projektni biro Vučković — Sva prava zadržana.
           </p>
           <p className="text-xs text-white/20 tracking-widest uppercase">
-            Beograd · Palilula
+            Novi Sad · Srbija
           </p>
         </div>
 

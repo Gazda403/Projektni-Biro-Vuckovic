@@ -17,12 +17,12 @@ const NAV_LINKS: NavLink[] = [
   { label: "Kontakt",  href: "#kontakt"  },
 ];
 
-const PHONE = "+381 (0)11 3240390";
+const PHONE = "+381 (0)21 6614440";
 
 // ─── OXO Logo Mark ────────────────────────────────────────────────────────────
 function OxoLogo() {
   return (
-    <a href="/" aria-label="OXO Arhitekti — početna" className="flex items-center gap-2 group">
+    <a href="/" aria-label="Arhitektonski projektni biro Vučković — početna" className="flex items-center gap-2 group">
       {/* Geometric diamond mark */}
       <svg
         width="28" height="28" viewBox="0 0 28 28"
@@ -42,7 +42,7 @@ function OxoLogo() {
         />
       </svg>
       <span className="text-[11px] font-bold tracking-[0.22em] uppercase text-[#f5f4f0] leading-none select-none">
-        OXO<br />
+        VUČKOVIĆ<br />
         <span className="font-light tracking-[0.32em] text-[9px]">ARHITEKTI</span>
       </span>
     </a>

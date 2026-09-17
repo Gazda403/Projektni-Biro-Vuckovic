@@ -149,7 +149,7 @@ export default function MissionSection() {
             className="text-[10px] font-bold tracking-[0.35em] uppercase text-white/40"
             style={{ fontFamily: "var(--font-inter)" }}
           >
-            04 — OXO Arhitekti
+            04 — Arhitektonski projektni biro Vučković
           </m.span>
 
           {/* Mission statement */}
@@ -158,9 +158,10 @@ export default function MissionSection() {
             className="text-base md:text-lg font-light leading-relaxed text-white/80"
             style={{ fontFamily: "var(--font-cormorant), serif" }}
           >
-            Gradimo prostore koji ne samo da izgledaju izuzetno, već funkcionišu
-            savršeno — kroz preciznost inženjera i osećaj umetnika. Svaki projekat
-            je naša posvećenost trajnoj lepoti i funkcionalnosti.
+            Projektujemo prostore koji traju — kroz preciznost inženjera,
+            pažnju pravnog eksperta i osjećaj arhitekte. Svaki projekat,
+            od idejnog rešenja do sudskog veštačenja, odražava našu
+            posvećenost kvalitetu i integritetu.
           </m.p>
 
           {/* CTA */}

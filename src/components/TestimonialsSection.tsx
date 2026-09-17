@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
     id: 1,
     name: "Ana Jovanović",
     role: "CEO, TechNova",
-    content: "OXO Arhitekti su transformisali naš prostor. Njihov pristup detaljima i posvećenost funkcionalnosti su besprekorni.",
+    content: "Projektni biro Vučković je transformisao naš prostor. Njihov pristup detaljima i posvećenost funkcionalnosti su besprekorni.",
     avatar: "https://picsum.photos/100/100?random=11"
   },
   {
@@ -38,7 +38,7 @@ const testimonials: Testimonial[] = [
     id: 4,
     name: "Milan Petrović",
     role: "Preduzetnik",
-    content: "Kombinacija moderne estetike i održivosti. Naš novi poslovni prostor je pravo remek-delo zahvaljujući OXO timu.",
+    content: "Kombinacija moderne estetike i održivosti. Naš novi poslovni prostor je pravo remek-delo zahvaljujući timu Vučković.",
     avatar: "https://picsum.photos/100/100?random=14"
   },
   {
@@ -59,7 +59,7 @@ const testimonials: Testimonial[] = [
     id: 7,
     name: "Dragan Ilić",
     role: "Direktor",
-    content: "Vizija koju OXO Arhitekti donose je neuporediva. Uspeli su da spoje luksuz i toplinu u našem stambenom kompleksu.",
+    content: "Vizija koju biro Vučković donosi je neuporediva. Uspeli su da spoje luksuz i toplinu u našem stambenom kompleksu.",
     avatar: "https://picsum.photos/100/100?random=17"
   },
   {
@@ -80,7 +80,7 @@ const testimonials: Testimonial[] = [
     id: 10,
     name: "Katarina Ristić",
     role: "Hotelijer",
-    content: "Partnerstvo sa OXO Arhitektima je najbolja odluka koju smo doneli za naš hotel. Dizajn je postao naš zaštitni znak.",
+    content: "Partnerstvo sa birooom Vučković je najbolja odluka koju smo doneli za naš hotel. Dizajn je postao naš zaštitni znak.",
     avatar: "https://picsum.photos/100/100?random=20"
   }
 ];

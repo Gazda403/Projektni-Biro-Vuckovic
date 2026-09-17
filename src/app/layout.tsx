@@ -25,13 +25,13 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: "OXO Arhitekti | Gde se inženjerstvo susreće sa savremenim dizajnom",
+  title: "Arhitektonski projektni biro Vučković | Projektovanje, nadzor i veštačenje — Novi Sad",
   description:
-    "OXO Arhitekti — premium architectural studio based in Belgrade, Palilula. Founded 2009. Engineering meets contemporary design.",
-  keywords: ["arhitektura", "dizajn", "Beograd", "OXO Arhitekti", "projektovanje"],
+    "Arhitektonski projektni biro Vučković — specijalizovani studio za arhitektonsko projektovanje, sudsko i vansudsko veštačenje, energetsku efikasnost i legalizaciju objekata. Novi Sad, Srbija.",
+  keywords: ["arhitektura", "projektovanje", "Novi Sad", "Vučković", "veštačenje", "legalizacija", "energetski pasoš", "nadzor"],
   openGraph: {
-    title: "OXO Arhitekti",
-    description: "Gde se inženjerstvo susreće sa savremenim dizajnom",
+    title: "Arhitektonski projektni biro Vučković",
+    description: "Projektovanje, nadzor i veštačenje — Novi Sad, Srbija",
     type: "website",
     locale: "sr_RS",
   },

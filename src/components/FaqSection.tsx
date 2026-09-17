@@ -5,16 +5,16 @@ import { m, AnimatePresence, Variants } from "framer-motion";
 
 const faqData = [
   {
-    question: "Da li pružate usluge projektovanja i izvođenja (ključ u ruke)?",
-    answer: "Da, OXO Arhitekti funkcionišu kao hibridni arhitektonski i inženjerski studio. Pored izrade kompletne tehničke dokumentacije, možemo preuzeti vođenje projekta na terenu kako bismo osigurali da je svaki detalj izveden tačno onako kako je projektovan.",
+    question: "Da li pru\u017eate usluge sudskog i vansudskog ve\u0161ta\u010denja?",
+    answer: "Da. Du\u0161ko Vu\u010dkovi\u0107 je sertifikovani sudski vesta\u010d u oblasti visokogradnje i pru\u017ea sudska i vansudska ve\u0161ta\u010denja za gra\u0111evinske sporove, procenu tr\u017ei\u0161ne i gra\u0111evinske vrednosti nekretnina, kao i studije opravdanosti ulaganja.",
   },
   {
-    question: "Koliko traje proces od idejnog rešenja do dobijanja građevinske dozvole?",
-    answer: "Vremenski okvir zavisi od kompleksnosti projekta i lokalnih regulativa. Prosečno, faza idejnog rešenja traje 4-6 nedelja, dok proces ishodovanja dozvola može trajati dodatnih 2 do 4 meseca. Naš tim aktivno upravlja procedurama kako bi maksimizovao efikasnost.",
+    question: "Koliko traje proces legalizacije (ozakonjenja) objekta?",
+    answer: "Rok zavisi od vrste objekta i lokalnih organa, ali u proseku postupak traje od 3 do 6 meseci. Na\u0161 biro priprema svu potrebnu dokumentaciju i aktivno prati proceduru kako bi se rok maksimalno skratio.",
   },
   {
-    question: "Da li radite projekte za klijente van Beograda i Srbije?",
-    answer: "Apsolutno. Zahvaljujući modernim digitalnim alatima, uspešno vodimo i realizujemo projekte kako na teritoriji cele Srbije, tako i za internacionalne klijente, pružajući visok nivo komunikacije i detaljne dokumentacije koja olakšava lokalno izvođenje.",
+    question: "Da li radite na energetskim elaboratima i energetskim paso\u0161ima?",
+    answer: "Apsolutno. Izra\u0111ujemo energetske elaborate i energetske paso\u0161e za stambene i poslovne objekte, u skladu sa va\u017ee\u0107im propisima. Ovaj dokument je obavezan pri prodaji nekretnine i ishode\u0107ivanju upotrebne dozvole.",
   },
 ];
 
@@ -106,7 +106,7 @@ export default function FaqSection() {
           <div className="lg:w-[35%]">
             <div className="sticky top-32">
               <p className="text-xl md:text-2xl lg:text-3xl font-light leading-snug tracking-tight text-[#0B0B0B]/80" style={{ fontFamily: "var(--font-inter)" }}>
-                Sveobuhvatna inženjerska i arhitektonska podrška od ideje do realizacije.
+                Kompletna arhitektonska, pravna i tehnička podrška — od projektovanja do legalizacije i sudskog veštačenja.
               </p>
             </div>
           </div>
