@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Cormorant_Garamond, Orbitron } from "next/font/google";
+import { Inter, Cormorant_Garamond, Chakra_Petch } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -17,10 +17,10 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 });
 
-const orbitron = Orbitron({
-  variable: "--font-orbitron",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+const chakra = Chakra_Petch({
+  variable: "--font-chakra",
+  subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -41,7 +41,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="sr" className={`${inter.variable} ${cormorant.variable} ${orbitron.variable} antialiased`}>
+    <html lang="sr" className={`${inter.variable} ${cormorant.variable} ${chakra.variable} antialiased`}>
       <body className="flex flex-col bg-[#0a0a0a] text-[#f5f4f0] overflow-x-clip">
         {children}
       </body>

@@ -173,8 +173,8 @@ export default function HeroSection() {
         <h2
           className="text-white leading-none select-none whitespace-nowrap uppercase"
           style={{
-            fontFamily: "var(--font-orbitron), sans-serif",
-            fontWeight: 800,
+            fontFamily: "var(--font-chakra), sans-serif",
+            fontWeight: 700,
             fontSize: "clamp(1.5rem, 5vw, 6rem)",
             letterSpacing: "0.45em",
             textShadow: "0 0 40px rgba(0,0,0,0.3)",
@@ -196,8 +196,8 @@ export default function HeroSection() {
         <h2
           className="text-white leading-none select-none whitespace-nowrap uppercase text-center"
           style={{
-            fontFamily: "var(--font-orbitron), sans-serif",
-            fontWeight: 800,
+            fontFamily: "var(--font-chakra), sans-serif",
+            fontWeight: 700,
             fontSize: "clamp(2.5rem, 11.5vw, 5.5rem)",
             letterSpacing: "0.08em",
             textShadow: "0 4px 30px rgba(0,0,0,0.5)",
@@ -208,7 +208,7 @@ export default function HeroSection() {
         <p
           className="text-white/60 uppercase tracking-[0.38em] font-light mt-2.5 whitespace-nowrap text-center"
           style={{
-            fontFamily: "var(--font-orbitron), sans-serif",
+            fontFamily: "var(--font-chakra), sans-serif",
             fontSize: "clamp(0.75rem, 3.2vw, 1.1rem)",
           }}
         >
@@ -302,7 +302,7 @@ export default function HeroSection() {
             className="text-[#f5f4f0]/40 font-mono uppercase leading-relaxed"
             style={{ fontSize: "clamp(0.55rem, 0.7vw, 0.72rem)", letterSpacing: "0.18em" }}
           >
-            Du\u0161ko Vu\u010dkovi\u0107
+            Duško Vučković
             <br />
             Novi Sad, Srbija
           </p>
