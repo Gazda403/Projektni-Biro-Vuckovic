@@ -188,7 +188,7 @@ export default function HeroSection() {
       <m.div
         aria-hidden="true"
         className="absolute inset-x-0 z-10 flex lg:hidden flex-col items-center justify-center pointer-events-none select-none transform-gpu px-4"
-        style={{ top: "20%" }}
+        style={{ top: "18%" }}
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.6, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
@@ -198,18 +198,18 @@ export default function HeroSection() {
           style={{
             fontFamily: "var(--font-chakra), sans-serif",
             fontWeight: 700,
-            fontSize: "clamp(2.5rem, 11.5vw, 5.5rem)",
-            letterSpacing: "0.08em",
+            fontSize: "clamp(3.2rem, 15vw, 6.5rem)",
+            letterSpacing: "0.06em",
             textShadow: "0 4px 30px rgba(0,0,0,0.5)",
           }}
         >
           VUČKOVIĆ
         </h2>
         <p
-          className="text-white/60 uppercase tracking-[0.38em] font-light mt-2.5 whitespace-nowrap text-center"
+          className="text-white/70 uppercase tracking-[0.42em] font-light mt-3 whitespace-nowrap text-center"
           style={{
             fontFamily: "var(--font-chakra), sans-serif",
-            fontSize: "clamp(0.75rem, 3.2vw, 1.1rem)",
+            fontSize: "clamp(0.95rem, 4.2vw, 1.4rem)",
           }}
         >
           ARHITEKTI
